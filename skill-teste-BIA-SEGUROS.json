@@ -1,0 +1,2110 @@
+{
+  "intents": [
+    {
+      "intent": "beneficios",
+      "examples": [
+        {
+          "text": "quais os benefícios da batata?"
+        },
+        {
+          "text": "quais os benefícios da carne vermelha?"
+        },
+        {
+          "text": "quais os benefícios da mandioca?"
+        },
+        {
+          "text": "quais os benefícios da salada?"
+        },
+        {
+          "text": "quais os benefícios do arroz?"
+        },
+        {
+          "text": "Quais os beneficios do frango?"
+        },
+        {
+          "text": "quais os benefícios do peixe?"
+        }
+      ],
+      "description": "Quais os beneficios do frango?"
+    },
+    {
+      "intent": "carboidrato",
+      "examples": [
+        {
+          "text": "carboidrato"
+        },
+        {
+          "text": "eu como mais carboidrato"
+        },
+        {
+          "text": "eu prefiro carboidrato"
+        },
+        {
+          "text": "minha dieta se baseia em carboidrato"
+        },
+        {
+          "text": "minha nutricionista recomendou carboidrato"
+        },
+        {
+          "text": "preciso de carboidrato"
+        },
+        {
+          "text": "Quero carboidrato, por favor"
+        },
+        {
+          "text": "vou optar por carboidrato"
+        }
+      ],
+      "description": "O cliente deseja carboidrato"
+    },
+    {
+      "intent": "mix_dos_3",
+      "examples": [
+        {
+          "text": "combina os três para mim"
+        },
+        {
+          "text": "desejo proteína, carboidrato e salada"
+        },
+        {
+          "text": "eu quero os 3"
+        },
+        {
+          "text": "por favor os três"
+        },
+        {
+          "text": "prefiro os 3 juntos"
+        },
+        {
+          "text": "tem como escolher três de uma vez?"
+        },
+        {
+          "text": "um de cada"
+        },
+        {
+          "text": "vou pedir uma mistura dos três"
+        },
+        {
+          "text": "vou pedir um de cada um"
+        },
+        {
+          "text": "vou te peixe, arroz e tomate"
+        }
+      ],
+      "description": "O cliente deseja os mix dos 3"
+    },
+    {
+      "intent": "pagamento",
+      "examples": [
+        {
+          "text": "Qual a forma de pagamento por gentileza ??"
+        },
+        {
+          "text": "vocês trabalham com crédito ou débito?"
+        }
+      ],
+      "description": "forma de pagamento"
+    },
+    {
+      "intent": "proteina",
+      "examples": [
+        {
+          "text": "eu como mais proteína"
+        },
+        {
+          "text": "minha dieta se baseia em proteína"
+        },
+        {
+          "text": "minha nutricionista sugeriu proteina"
+        },
+        {
+          "text": "preciso de proteína"
+        },
+        {
+          "text": "Prefiro proteína"
+        },
+        {
+          "text": "Proteína"
+        },
+        {
+          "text": "Quero proteína"
+        },
+        {
+          "text": "vou optar por proteína"
+        }
+      ],
+      "description": "O cliente deseja proteína"
+    },
+    {
+      "intent": "salada",
+      "examples": [
+        {
+          "text": "alguma coisa mais leve, quero salada"
+        },
+        {
+          "text": "eu como mais salada"
+        },
+        {
+          "text": "eu quero salada"
+        },
+        {
+          "text": "minha nutricionista recomendou salada"
+        },
+        {
+          "text": "preciso de salada"
+        },
+        {
+          "text": "prefiro salada"
+        },
+        {
+          "text": "salada"
+        },
+        {
+          "text": "vou optar por salada"
+        }
+      ],
+      "description": "O cliente deseja salada"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "arroz",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "arroz",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "integral",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "normal",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "batata",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "batata",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "frita",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "sauté",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "carboidrato",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "arroz",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "batata",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "carboidrato",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mandioca",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "carne_vermelha",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "ao ponto",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "bem passado",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "carne",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "carne vermelha",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mal passada",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "frango",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "assado",
+          "synonyms": [
+            "açado"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "frango",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "frito",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "grelhado",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "mandioca",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "cozida",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "frita",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "mandioca",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "pagamento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "crédito",
+          "synonyms": [
+            "credito"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "débito",
+          "synonyms": [
+            "debito"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "peixe",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "frito",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "grelhado",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "peixe",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "proteina",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "carne vermelha",
+          "synonyms": [
+            "carne"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "frango",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "peixe",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "proteina",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "salada",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "alface",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "beterraba",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "cenoura",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "salada",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "tomate",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, sou o Chef Jacquin 👩‍🍳, estou aqui para te orientar na compra de alimentos saborosos que condiz com sua dieta preferida. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Qual das 4 opções você prefere?",
+            "options": [
+              {
+                "label": "Proteína",
+                "value": {
+                  "input": {
+                    "text": "proteina"
+                  }
+                }
+              },
+              {
+                "label": "Carboidrato",
+                "value": {
+                  "input": {
+                    "text": "carboidrato"
+                  }
+                }
+              },
+              {
+                "label": "Salada",
+                "value": {
+                  "input": {
+                    "text": "salada"
+                  }
+                }
+              },
+              {
+                "label": "Mix das 3 opções",
+                "value": {
+                  "input": {
+                    "text": "quero as 3"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "digress_in": "does_not_return",
+      "dialog_node": "Bem-vindo",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Não compreendi o que deseja, as opções que temos estão em nosso menu, conforme demonstrado."
+              },
+              {
+                "text": ""
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_1_1621182597986",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "parent": "node_1_1620950348644",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1621182597986"
+      },
+      "conditions": "@peixe:frito || @peixe:grelhado",
+      "dialog_node": "node_10_1621168190910"
+    },
+    {
+      "type": "folder",
+      "title": "Carboidrato",
+      "conditions": "#carboidrato",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1621173266515",
+      "previous_sibling": "node_7_1621167123767"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Qual a opção que deseja de proteína em nosso menu?",
+            "options": [
+              {
+                "label": "Frango",
+                "value": {
+                  "input": {
+                    "text": "frango"
+                  }
+                }
+              },
+              {
+                "label": "Carne Vermelha",
+                "value": {
+                  "input": {
+                    "text": "carne vermelha"
+                  }
+                }
+              },
+              {
+                "label": "Peixe",
+                "value": {
+                  "input": {
+                    "text": "peixe"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_7_1621167123767",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#proteina",
+      "dialog_node": "node_1_1620934209558",
+      "digress_out": "allow_all"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Peixe frito ou grelhado?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1620934209558",
+      "conditions": "@peixe && !#beneficios",
+      "dialog_node": "node_1_1620950348644"
+    },
+    {
+      "type": "standard",
+      "title": "Pagamento ",
+      "output": {},
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#pagamento",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1621182597986",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_5_1620939188260"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfeito, você deseja uma combinação dos três grupos de alimentos, vamos começar com proteína."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Carne temos essas opções:",
+            "options": [
+              {
+                "label": "Carne vermelha mal passada",
+                "value": {
+                  "input": {
+                    "text": "mal passada"
+                  }
+                }
+              },
+              {
+                "label": "Carne vermelha bem passado",
+                "value": {
+                  "input": {
+                    "text": "bem passado"
+                  }
+                }
+              },
+              {
+                "label": "Carne vermelha ao ponto",
+                "value": {
+                  "input": {
+                    "text": "ao ponto"
+                  }
+                }
+              },
+              {
+                "label": "Frango frito",
+                "value": {
+                  "input": {
+                    "text": "frango frito"
+                  }
+                }
+              },
+              {
+                "label": "Frango grelhado",
+                "value": {
+                  "input": {
+                    "text": "frango grelhado"
+                  }
+                }
+              },
+              {
+                "label": "Peixe frito",
+                "value": {
+                  "input": {
+                    "text": "peixe frito"
+                  }
+                }
+              },
+              {
+                "label": "Peixe grelhado",
+                "value": {
+                  "input": {
+                    "text": "peixe grelhado"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_8_1621197130003",
+      "conditions": "#mix_dos_3",
+      "dialog_node": "node_1_1621197755426"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Frango frito ou grelhado?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1620934209558",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@frango && !#beneficios",
+      "dialog_node": "node_2_1620938176571",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1620950348644"
+    },
+    {
+      "type": "folder",
+      "title": "Salada",
+      "conditions": "#salada",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_2_1621178898359",
+      "previous_sibling": "node_10_1621173266515"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seu pedido é @salada cujo valor da porção corresponde a R$ 10,00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1621178934796",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1621182597986"
+      },
+      "conditions": "@salada && !#beneficios",
+      "dialog_node": "node_2_1621180315485"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Qual a opção que deseja de carboidrato em nosso menu?",
+            "options": [
+              {
+                "label": "Arroz",
+                "value": {
+                  "input": {
+                    "text": "arroz"
+                  }
+                }
+              },
+              {
+                "label": "Batata",
+                "value": {
+                  "input": {
+                    "text": "batata"
+                  }
+                }
+              },
+              {
+                "label": "Mandioca",
+                "value": {
+                  "input": {
+                    "text": "Mandioca"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1621173266515",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#carboidrato",
+      "dialog_node": "node_25_1621200025237"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Normal ou integral?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1621200025237",
+      "conditions": "@arroz && !#beneficios",
+      "dialog_node": "node_26_1621200025240"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_26_1621200025240",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1621182597986"
+      },
+      "conditions": "@arroz:normal || @arroz:integral",
+      "dialog_node": "node_27_1621200025240"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Batata frita ou sauté?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1621200025237",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@batata && !#beneficios",
+      "dialog_node": "node_31_1621200025240",
+      "previous_sibling": "node_26_1621200025240"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_31_1621200025240",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1621182597986"
+      },
+      "conditions": "@batata:frita || @batata:sauté",
+      "dialog_node": "node_32_1621200025240"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mandioca frita ou cozida?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1621200025237",
+      "conditions": "@mandioca && !#beneficios",
+      "dialog_node": "node_36_1621200025240",
+      "previous_sibling": "node_31_1621200025240"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_36_1621200025240",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1621182597986"
+      },
+      "conditions": "@mandioca:frita || @mandioca:cozida",
+      "dialog_node": "node_37_1621200025240"
+    },
+    {
+      "type": "standard",
+      "title": "beneficios",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#beneficios",
+      "digress_in": "returns",
+      "dialog_node": "node_5_1620939188260",
+      "digress_out": "allow_all_never_return",
+      "previous_sibling": "node_2_1621178898359"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Perfeito, Agora vamos ao carboidrato, temos essas opções:",
+            "options": [
+              {
+                "label": "Arroz normal ",
+                "value": {
+                  "input": {
+                    "text": "arroz normal"
+                  }
+                }
+              },
+              {
+                "label": "Arroz integral ",
+                "value": {
+                  "input": {
+                    "text": "arroz integral"
+                  }
+                }
+              },
+              {
+                "label": "Batata frita ",
+                "value": {
+                  "input": {
+                    "text": "batata frita"
+                  }
+                }
+              },
+              {
+                "label": "Batata sauté",
+                "value": {
+                  "input": {
+                    "text": "batata sauté"
+                  }
+                }
+              },
+              {
+                "label": "Mandioca frita ",
+                "value": {
+                  "input": {
+                    "text": "mandioca frita"
+                  }
+                }
+              },
+              {
+                "label": "Mandioca cozida",
+                "value": {
+                  "input": {
+                    "text": "mandioca cozida "
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1621197755426",
+      "conditions": "@peixe || @frango || @carne_vermelha && !#beneficios",
+      "dialog_node": "node_5_1621198812976"
+    },
+    {
+      "type": "standard",
+      "title": "endereço",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Entregaremos nesse endereço $input_user, obrigado pela preferência. 😃"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1621186981061",
+      "context": {
+        "input_user": "<? input.text ?>"
+      },
+      "conditions": "true",
+      "dialog_node": "node_5_1621204609161"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok pedido anotado. Agora vamos à salada:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Para salada, temos essas opções:",
+            "options": [
+              {
+                "label": "Alface",
+                "value": {
+                  "input": {
+                    "text": "alface"
+                  }
+                }
+              },
+              {
+                "label": "Tomate",
+                "value": {
+                  "input": {
+                    "text": "tomate"
+                  }
+                }
+              },
+              {
+                "label": "Cenoura",
+                "value": {
+                  "input": {
+                    "text": "cenoura"
+                  }
+                }
+              },
+              {
+                "label": "Beterraba",
+                "value": {
+                  "input": {
+                    "text": "beterraba"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_5_1621198812976",
+      "context": {},
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "@mandioca || @batata || @arroz && !#beneficios",
+      "dialog_node": "node_6_1621198812976"
+    },
+    {
+      "type": "standard",
+      "parent": "node_8_1621173102324",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1621182597986"
+      },
+      "conditions": "@carne_vermelha ||   @carne_vermelha:(bem passado) ||  @carne_vermelha:(ao ponto) || @carne_vermelha:(mal passada)",
+      "dialog_node": "node_7_1620948345291"
+    },
+    {
+      "type": "folder",
+      "title": "Proteína",
+      "conditions": "#proteina",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1621167123767",
+      "previous_sibling": "node_8_1621197130003"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "As opções de carne que temos é, seleciona uma :",
+            "options": [
+              {
+                "label": "Mal passada ",
+                "value": {
+                  "input": {
+                    "text": "Mal passada"
+                  }
+                }
+              },
+              {
+                "label": "Ao ponto",
+                "value": {
+                  "input": {
+                    "text": "ao ponto"
+                  }
+                }
+              },
+              {
+                "label": "Bem passado",
+                "value": {
+                  "input": {
+                    "text": "bem passado"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1620934209558",
+      "conditions": "@carne_vermelha && !#beneficios",
+      "dialog_node": "node_8_1621173102324",
+      "previous_sibling": "node_2_1620938176571"
+    },
+    {
+      "type": "folder",
+      "title": "Mix",
+      "conditions": "#mix_dos_3",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_8_1621197130003",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A soma dos seus pedidos corresponde a R$ 60,00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1621198812976",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1621182597986"
+      },
+      "conditions": "@salada",
+      "dialog_node": "node_8_1621203674097"
+    },
+    {
+      "type": "standard",
+      "parent": "node_2_1620938176571",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1621182597986"
+      },
+      "conditions": "@frango:grelhado || @frango:frito",
+      "dialog_node": "node_9_1621172039546"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "title": "Quais saladas você prefere do nosso menu?",
+            "options": [
+              {
+                "label": "Alface",
+                "value": {
+                  "input": {
+                    "text": "alface"
+                  }
+                }
+              },
+              {
+                "label": "Tomate",
+                "value": {
+                  "input": {
+                    "text": "tomate"
+                  }
+                }
+              },
+              {
+                "label": "Cenoura",
+                "value": {
+                  "input": {
+                    "text": "cenoura"
+                  }
+                }
+              },
+              {
+                "label": "Beterraba",
+                "value": {
+                  "input": {
+                    "text": "beterraba"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_2_1621178898359",
+      "context": {},
+      "conditions": "#salada",
+      "dialog_node": "node_9_1621178934796"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Correto, qual seria o seu endereço por gentileza??"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1621182597986",
+      "conditions": "@pagamento:débito || @pagamento:crédito",
+      "dialog_node": "node_9_1621186981061"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em termos de vitaminas, contém Vitamina C, Tiamina, Riboflavina, Niacina, Vitamina B6, Ácido Fólico, Vitamina B12, Vitamina A, Vitamina E, Vitamina D e Vitamina K. Então, confira os Benefícios do Frango para Saúde. Frango Tem um Alto Teor de Proteína: O Frango é uma das melhores fontes de proteína para a dieta."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1620939188260",
+      "conditions": "@frango",
+      "dialog_node": "response_10_1620947136694"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfeito"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1620934209558",
+      "disabled": true,
+      "conditions": "@peixe",
+      "dialog_node": "response_10_1620948934926",
+      "previous_sibling": "response_9_1620948917910"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Com uma alta quantidade de vitaminas A e C, nossa visão também é muito beneficiada com o consumo do tomate, ressaltando que o tomate também é capaz de reduzir o risco de desenvolver cataratas."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1620939188260",
+      "conditions": "@salada:tomate",
+      "dialog_node": "response_10_1621208293780",
+      "previous_sibling": "response_6_1621186799954"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A alface é uma verdura rica em fibras e antioxidantes que deve ser incluída na alimentação do dia a dia porque pode trazer diversos benefícios para a saúde, como favorecer a perda de peso, melhora da saúde gastrointestinal e regulação dos níveis de açúcar no sangue. Esses benefícios são proporcionados pelos nutrientes e compostos bioativos presentes na alface, como vitamina C, carotenoides, folatos, clorofila e compostos fenólicos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1620939188260",
+      "conditions": "@salada:alface",
+      "dialog_node": "response_10_1621208403080",
+      "previous_sibling": "response_10_1621208293780"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O peixe é uma fonte de proteínas e gorduras boas, como o ômega 3, que aumentam a produção das células de defesa do organismo, fortalecendo o sistema imune. Além disso, é um alimento rico em vitamina C e vitamina E, que contêm propriedades anti-inflamatórias, protegendo o sistema imune de possíveis inflamações."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1620939188260",
+      "conditions": "@peixe",
+      "dialog_node": "response_1_1621186336832",
+      "previous_sibling": "response_5_1621186318360"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Possui grande valor nutricional e diversas formas de consumo. A mandioca cozida contém cálcio, magnésio, fósforo, potássio e vitamina C. É uma rica fonte de calorias e carboidratos, o alimento in natura cozido possui 125 calorias e 30 g de carboidratos em 100 g"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1620939188260",
+      "conditions": "@mandioca",
+      "dialog_node": "response_1_1621186352440",
+      "previous_sibling": "response_1_1621186336832"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "As formas que temos de pagamento é crédito, débito ou em espécie, fique a vontade para escolher sua melhor forma."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1621182597986",
+      "conditions": "#pagamento",
+      "dialog_node": "response_2_1621182597988",
+      "previous_sibling": "node_9_1621186981061"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok seu pedido é um arroz normal no valor de R$ 20,00 a porção"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_27_1621200025240",
+      "context": {
+        "peixefrito": "@peixe:frito",
+        "peixegrelhado": "@peixe:grelhado"
+      },
+      "conditions": "@arroz:normal",
+      "dialog_node": "response_28_1621200025240"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok seu pedido é um arroz integral  no valor de R$ 20,00 a porção"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_27_1621200025240",
+      "conditions": "@arroz:integral",
+      "dialog_node": "response_29_1621200025240",
+      "previous_sibling": "response_28_1621200025240"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seu pedido é uma carne mal passada, no valor correspondente de R$ 30,00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1620948345291",
+      "conditions": "@carne_vermelha:(bem passado)",
+      "dialog_node": "response_3_1620948800989"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A forma de pagamento é crédito ou débito,  qual seria a opção???"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1621182597986",
+      "conditions": "true",
+      "dialog_node": "response_3_1621182597988",
+      "previous_sibling": "response_2_1621182597988"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ok, seu pedido é uma batata frita de R$ 20 reais"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_32_1621200025240",
+      "conditions": "@batata:frita",
+      "dialog_node": "response_33_1621200025240"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ok, seu pedido é uma batata sauté de R$ 20,00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_32_1621200025240",
+      "conditions": "@batata:sauté",
+      "dialog_node": "response_34_1621200025240",
+      "previous_sibling": "response_33_1621200025240"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seu pedido é uma mandioca cozida, o valor correspondente é R$ 20,00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_37_1621200025240",
+      "conditions": "@mandioca:cozida",
+      "dialog_node": "response_38_1621200025240"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seu pedido é uma mandioca frita, o valor correspondente é R$ 20,00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_37_1621200025240",
+      "conditions": "@mandioca:frita",
+      "dialog_node": "response_39_1621200025240",
+      "previous_sibling": "response_38_1621200025240"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Boa escolha, a proteína é responsável pela construção e manutenção de órgãos e tecidos em nosso corpo, sua boa ingestão é imprescindível."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Dentre as opções de proteína, qual dessas deseja?",
+            "options": [
+              {
+                "label": "Frango",
+                "value": {
+                  "input": {
+                    "text": "frango"
+                  }
+                }
+              },
+              {
+                "label": "Carne vermelha",
+                "value": {
+                  "input": {
+                    "text": "carne vermelha"
+                  }
+                }
+              },
+              {
+                "label": "Peixe",
+                "value": {
+                  "input": {
+                    "text": "peixe"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1620934209558",
+      "disabled": true,
+      "conditions": "#proteina",
+      "dialog_node": "response_4_1620941885889",
+      "previous_sibling": "response_10_1620948934926"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seu pedido é uma carne ao ponto, no valor correspondente de R$ 30,00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1620948345291",
+      "conditions": "@carne_vermelha:(ao ponto)",
+      "dialog_node": "response_4_1620948951301",
+      "previous_sibling": "response_3_1620948800989"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1621168190910",
+      "dialog_node": "response_4_1621188557759",
+      "previous_sibling": "response_8_1621169338367"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A beterraba tem zinco, que turbina o sistema imunológico, defendendo o organismo de infecções. Além disso, ela também combate os radicais livres que aceleram o envelhecimento das células do organismo, inclusive as que trabalham na prevenção de doenças."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1620939188260",
+      "conditions": "@salada:beterraba",
+      "dialog_node": "response_4_1621210250964",
+      "previous_sibling": "response_7_1621208456527"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfeito"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1621200025237",
+      "disabled": true,
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_31_1621200025240"
+      },
+      "conditions": "@frango",
+      "dialog_node": "response_42_1621200025240",
+      "previous_sibling": "node_36_1621200025240"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfeito"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1621200025237",
+      "disabled": true,
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_37_1621200025240"
+      },
+      "conditions": "@carne_vermelha",
+      "dialog_node": "response_43_1621200025240",
+      "previous_sibling": "response_42_1621200025240"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfeito"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_25_1621200025237",
+      "disabled": true,
+      "conditions": "@peixe",
+      "dialog_node": "response_44_1621200025240",
+      "previous_sibling": "response_43_1621200025240"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Boa escolha, a proteína é responsável pela construção e manutenção de órgãos e tecidos em nosso corpo, sua boa ingestão é imprescindível."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Dentre as opções de proteína, qual dessas deseja?",
+            "options": [
+              {
+                "label": "Frango",
+                "value": {
+                  "input": {
+                    "text": "frango"
+                  }
+                }
+              },
+              {
+                "label": "Carne vermelha",
+                "value": {
+                  "input": {
+                    "text": "carne vermelha"
+                  }
+                }
+              },
+              {
+                "label": "Peixe",
+                "value": {
+                  "input": {
+                    "text": "peixe"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_25_1621200025237",
+      "disabled": true,
+      "conditions": "#proteina",
+      "dialog_node": "response_45_1621200025240",
+      "previous_sibling": "response_44_1621200025240"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfeito"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1620934209558",
+      "disabled": true,
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1620938176571"
+      },
+      "conditions": "@frango",
+      "dialog_node": "response_5_1620941987675",
+      "previous_sibling": "node_8_1621173102324"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok seu pedido é um peixe frito no valor de R$ 30,00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1621168190910",
+      "context": {
+        "peixefrito": "@peixe:frito",
+        "peixegrelhado": "@peixe:grelhado"
+      },
+      "conditions": "@peixe:frito",
+      "dialog_node": "response_5_1621169284977"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A batata é fonte de ferro, fósforo, cálcio, magnésio e zinco, a batata ajuda o corpo a manter a estrutura e a força óssea. Além disso, seu consumo regular previne a perda óssea em homens e mulheres. Já o ferro e o zinco contribuem na produção do colágeno, que reforça e dá maior sustentação aos ossos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1620939188260",
+      "conditions": "@batata",
+      "dialog_node": "response_5_1621186318360",
+      "previous_sibling": "response_6_1620947123872"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "É fonte de minerais como ferro e potássio, contém proteínas, vitamina E e vitaminas do complexo B, tem baixos índices de gordura e colesterol, composto por mais de 70% de carboidrato, por isso é fonte de energia sendo de fácil digestão."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1620939188260",
+      "conditions": "@arroz",
+      "dialog_node": "response_6_1620947123872",
+      "previous_sibling": "response_10_1620947136694"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A carne bovina é rica em proteínas, elas ajudam a melhorar a massa muscular, além de auxiliar na reparação dos ossos, pele e cartilagem.A carne possui L-carnitina, que tem efeito benéfico sobre hipertensão, inflamação e até em pacientes com insuficiência cardíaca."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1620939188260",
+      "conditions": "@carne_vermelha",
+      "dialog_node": "response_6_1621186799954",
+      "previous_sibling": "response_1_1621186352440"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ok, seu pedido é um frango grelhado no valor de R$ 30,00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1621172039546",
+      "conditions": "@frango:grelhado",
+      "dialog_node": "response_7_1621172786582"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "ok, seu pedido é um frango frito no valor de R$ 30,00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1621172039546",
+      "conditions": "@frango:frito",
+      "dialog_node": "response_7_1621172847443",
+      "previous_sibling": "response_7_1621172786582"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok pedido anotado. Agora vamos para carboidrato:  Arroz, batata ou mandioca"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1621198812976",
+      "context": {
+        "peixefrito": "@peixe:frito",
+        "peixegrelhado": "@peixe:grelhado"
+      },
+      "disabled": true,
+      "conditions": "@peixe:frito",
+      "dialog_node": "response_7_1621198812976",
+      "previous_sibling": "node_8_1621203674097"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A cenoura é rica em sais minerais, como ferro e cálcio, vitaminas K, A, C, E, do complexo B e tem poucas calorias, por isso ela ajuda na saúde dos olhos, pele e até do cérebro, além de ter influência positiva no colesterol."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1620939188260",
+      "conditions": "@salada:cenoura",
+      "dialog_node": "response_7_1621208456527",
+      "previous_sibling": "response_10_1621208403080"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seu pedido é uma carne mal passada, no valor correspondente de R$ 30 reais "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1620948345291",
+      "conditions": "@carne_vermelha:(mal passada)",
+      "dialog_node": "response_8_1620949010608",
+      "previous_sibling": "response_4_1620948951301"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok seu pedido é um peixe grelhado no valor de R$ 30,00"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1621168190910",
+      "conditions": "@peixe:grelhado",
+      "dialog_node": "response_8_1621169338367",
+      "previous_sibling": "response_5_1621169284977"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok pedido anotado.Agora vamos para carboidrato:  Arroz, batata ou mandioca"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1621198812976",
+      "disabled": true,
+      "conditions": "@peixe:grelhado",
+      "dialog_node": "response_8_1621198812976",
+      "previous_sibling": "response_7_1621198812976"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Perfeito"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1620934209558",
+      "disabled": true,
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_7_1620948345291"
+      },
+      "conditions": "@carne_vermelha",
+      "dialog_node": "response_9_1620948917910",
+      "previous_sibling": "response_5_1620941987675"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1621198812976",
+      "disabled": true,
+      "dialog_node": "response_9_1621198812976",
+      "previous_sibling": "response_8_1621198812976"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 3,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "BIA_SEGUROS",
+  "language": "pt-br",
+  "description": ""
+}
